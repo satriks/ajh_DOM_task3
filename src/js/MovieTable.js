@@ -124,6 +124,6 @@ export default class MovieTable {
 
 document.addEventListener('DOMContentLoaded', () => {
   const tab = new MovieTable();
-  tab.drawTable(tab.rowsData)
+  tab.drawTable(tab.rowsData);
   setInterval(tab.loopMetod.bind(tab), 2000);
 });
